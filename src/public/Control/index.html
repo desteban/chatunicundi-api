@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatUnicundi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Control de Chat</h1>
+      <div class="row">
+        <p class="btn" id="update">
+          Actualizar grupos <i class="material-icons left">send</i>
+        </p>
+      </div>
+
+      <div class="row">
+        <table>
+          <thead>
+            <th>Codigo</th>
+            <th>Nombre</th>
+            <th>Docente</th>
+            <th>Opciones</th>
+          </thead>
+          <tbody id="listaGrupos">
+            <!--<tr>
+							<td></td>
+						</tr>-->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
